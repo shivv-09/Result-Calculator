@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="in">
+
+        <div class="strt">
+            <h1>Student Result Calculator</h1>
+            <p>Let's calculate your result..!</p>
+        </div>
+
+        <div class="entr">
+
+            <div id="jpr2">
+                <label for="jpr">Java Programming (JPR)</label>
+                <input type="number" id="jpr" placeholder="1-100">
+            </div>
+
+            <div>
+                <label for="dcn">Data Communication System (DCN)</label>
+                <input type="number" id="dcn" placeholder="1-100">
+            </div>
+
+            <div>
+                <label for="mic">Microprocessor Programming (MIC)</label>
+                <input type="number" id="mic" placeholder="1-100">
+            </div>
+
+        </div>
+
+        <button id="calc" onclick="calculate()">Submit</button>
+
+    </div>
+
+    <div class="out" id="out">
+        <span><h3>Your Result</h3></span>
+        <div class="alpha">
+             <h3 id="mrks"></h3>
+             <h3 id="prcent"></h3 >
+        </div>
+            <h3 id="grde"></h3>
+
+            
+            
+            <p id="warn"></p>
+
+            <button id="rst" onclick="reset()">Reset</button>
+            <p id="nte"></p>
+            <p id="nte2"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
