@@ -16,13 +16,13 @@ function calculate() {
 
     
     if (jprValue === "" && dcnValue === "" && micValue === "") {
-        alert("Calculator says: please enter your marks...");
+        alert(" please enter your marks..");
        
         return;
         
     }
     else if(jprValue === "" || dcnValue === "" || micValue === ""){
-          alert("Calculator says: all feilds must be filled..");
+          alert(" all feilds must be filled..");
           return;
     }
     
