@@ -16,13 +16,13 @@ function calculate() {
 
     
     if (jprValue === "" && dcnValue === "" && micValue === "") {
-        alert(" please enter your marks..");
+        alert(" Please enter your marks..");
        
         return;
         
     }
     else if(jprValue === "" || dcnValue === "" || micValue === ""){
-          alert(" all feilds must be filled..");
+          alert(" All feilds must be filled..");
           return;
     }
     
@@ -48,8 +48,8 @@ function calculate() {
 ) {
     document.getElementById("out").style.display = "none";
     document.getElementById("rst").style.display = "none";
-
-    alert(" Marks cannot be greater than 100 or less than 0!");
+ 
+    alert(" Marks must be among 1 to 100..");
 
     return; 
 }
